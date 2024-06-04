@@ -1,0 +1,29 @@
+// This program demonstrates understanding of data types in Dart.
+
+void main() {
+  // Integer (int) to store whole numbers
+  int age = 30;
+  print("Age: $age");
+
+  // Double (double) for storing decimal numbers
+  double pi = 3.14159;
+  print("Pi: $pi");
+
+  // String to store text
+  String name = "Alice";
+  print("Name: $name");
+
+  // List to store collections of items (ordered)
+  List<String> colors = ["red", "green", "blue"];
+  print("Colors: $colors");
+
+  // Accessing elements in a list
+  print("First color: ${colors[0]}");
+
+  // Map to store key-value pairs (unordered)
+  Map<String, int> person = {"age": 30, "height": 170};
+  print("Person: $person");
+
+  // Accessing values using keys in a map
+  print("Person's age: ${person["age"]}");
+}
